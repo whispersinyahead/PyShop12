@@ -31,3 +31,6 @@ class Product(models.Model):
         from django.urls import reverse
         return reverse('detail', kwargs={'id': self.pk})
 
+    class Meta:
+        ordering = ['-id']
+
