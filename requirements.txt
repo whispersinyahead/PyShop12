@@ -3,3 +3,4 @@
     Pillow==8.0.1
     django-crispy-forms
     python-decouple==3
+    django-shopping-cart==0.1
